@@ -1,0 +1,30 @@
+{
+  "name": "hello-world-javascript-action-by-jhonsi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonalex06/hello-world-javascript-action-by-jhonsi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonalex06/hello-world-javascript-action-by-jhonsi/issues"
+  },
+  "homepage": "https://github.com/jhonalex06/hello-world-javascript-action-by-jhonsi#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.5",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "rollup": "^4.43.0"
+  }
+}
